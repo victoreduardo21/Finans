@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../../web/bootstrap/css/bootstrap.min.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -15,12 +16,14 @@
     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
 
     <title>Recupera Senha</title>
+    <link rel="icon" href="../img/logo1.png">
+
   </head>
   
   <body>
     
    <head><!--inicio cabeçalho-->
-    <nav class="navbar navbar-expand-sm navbar-dark  bg-primary ">
+    <nav class="navbar navbar-expand-sm navbar-dark  bg-primary fixed-top">
         <div class="container">
           
           <a href="index.html" class="navbar-brand">
@@ -58,40 +61,21 @@
     </nav>
    </head><!--fim cabeçalho-->
 
-
- 
-
-
       
         <div class="card" id="telaLogin" > <!--inicio cadastra-->
           <!-- <img class="card-img-top" src="..." alt="Card image cap">-->
            <div class="card-body">
              <form>
                <div class="form-group">
-                 <label><b>Recupera Senha:</b></label>
-                 <input type="email" name="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
-               </div>
+                 <label><b>Recupera Senha:</b></label><br><br>
+                 <input type="email" name="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="Digite seu e-mail" required>
+               </div><br>
 
-               <div class="form-group">
-                 <input type="password" class="form-control" id="" placeholder="Digite sua nova senha">
-               </div>
-
-               <div class="form-group">
-                <input type="password" class="form-control" id="" placeholder="Confirme sua senha">
-              </div>
-
-               <button type="button" class="btn btn-outline-success btn-lg btn-block">Confirma</button>  <br>
+               <button type="submit" class="btn btn-outline-success btn-lg btn-block"  id="confirma">Enviar</button>  <br>
        
              </form>
            </div>
          </div><!--fim cadastra-->
-     
-
-   
-
-
-
-
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   
@@ -142,6 +126,7 @@
 
  <!-- JavaScript (Opcional) -->
  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+ <script src="../js/recupera_senha.js"></script>
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

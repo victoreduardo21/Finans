@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../../web/bootstrap/css/bootstrap.min.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -15,12 +16,14 @@
     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
 
     <title>Cadastrar</title>
+    <link rel="icon" href="../img/logo1.png">
+
   </head>
   
   <body>
     
    <head><!--inicio cabeçalho-->
-    <nav class="navbar navbar-expand-sm navbar-dark  bg-primary ">
+    <nav class="navbar navbar-expand-sm navbar-dark  bg-primary fixed-top">
         <div class="container">
           
           <a href="index.html" class="navbar-brand">
@@ -57,46 +60,34 @@
          </div>
     </nav>
    </head><!--fim cabeçalho-->
-
-
- 
-
-
-      
+  
         <div class="card" id="telaLogin" > <!--inicio cadastra-->
           <!-- <img class="card-img-top" src="..." alt="Card image cap">-->
            <div class="card-body">
              <form>
                <div class="form-group">
                  <label><b>Cadastra:</b></label>
-                 <input type="email" name="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+                 <input type="email" name="email" class="form-control" id=""  placeholder="Digite seu e-mail" required>
                </div>
 
                <div class="form-group">
-                 <input type="password" class="form-control" id="" placeholder="Digite sua senha">
+                 <input type="password" class="form-control" id="" placeholder="Digite sua senha" required maxlength="9"  minlength="9">
                </div>
 
                <div class="form-group">
-                <input type="password" class="form-control" id="" placeholder="Confirme sua senha">
+                <input type="password" class="form-control" id="" placeholder="Confirme sua senha" required maxlength="9"  minlength="9">
               </div>
-
-
-
-               <button type="button" class="btn btn-outline-success btn-lg btn-block">Cadastra</button>  <br>
+              
+               <button type="submit" class="btn btn-outline-success btn-lg btn-block">Cadastra</button>  <br>
        
                Caso não tenha conta: <a href="entra.html">Logar !</a>
+
              </form>
            </div>
          </div><!--fim cadastra-->
      
 
-   
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   
 <hr>
 
@@ -110,11 +101,6 @@
          <a href="preço.html">Preços</a>
         </p>
        </div>
-
-
-
-
-
 
        <div class="col-md-4 d-flex justify-content-end">  <!--inicio icon-->
 
@@ -136,13 +122,6 @@
     </div>
 
 </footer><!--fim rodape-->
-
-
-
-
-
- 
-
 
  <!-- JavaScript (Opcional) -->
  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

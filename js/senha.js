@@ -6,11 +6,8 @@ function mostraesconder(){
         password.setAttribute('type','text');
         icon.classList.add('esconder')
     }
-
     else{
         password.setAttribute('type','password');
         icon.classList.remove('esconder');
-
     }
-    
 }

@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" type="text/css" href="../../web/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
@@ -15,11 +15,13 @@
     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
     
     <title>Entrar</title>
+    <link rel="icon" href="../img/logo1.png">
+
   </head>
   <body >
     
    <head><!--inicio cabeçalho-->
-    <nav class="navbar navbar-expand-sm navbar-dark  bg-primary ">
+    <nav class="navbar navbar-expand-sm navbar-dark  bg-primary fixed-top">
         <div class="container">
           
           <a href="index.html" class="navbar-brand">
@@ -30,14 +32,12 @@
             <samp class="navbar-toggler-icon"></samp>
           </button>
 
-
           <div class="collapse navbar-collapse" id="nav-principal">
             <ul class="navbar-nav ml-auto">
 
               <li class="nav-item" >
                 <a href="index.html" class="nav-link">Home</a>
               </li>
-
 
               <li class="nav-item">
                 <a href="Beneficios.html" class="nav-link">Benefícios</a>
@@ -57,20 +57,16 @@
     </nav>
    </head><!--fim cabeçalho-->
    
-
-
    <div class="card" id="telaLogin" > <!--inicio login-->
-   <!-- <img class="card-img-top" src="..." alt="Card image cap">-->
     <div class="card-body">
       <form>
         <div class="form-group">
           <label><b>Login:</b></label>
-          <input type="email" name="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+          <input type="email" name="email" class="form-control" id=""  placeholder="Digite seu e-mail" required maxlength="50">
         </div>
 
-
         <div class="form-group">
-          <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+          <input type="password" class="form-control" id="password" placeholder="Digite sua senha" required maxlength="9" minlength="9">
           <div id="icon" onclick="mostraesconder()"></div>
           <a href="recuperasenha.html">Esqueci a senha!</a>
         </div>
@@ -80,18 +76,14 @@
           <label class="form-check-label" >permanecer logado</label>
         </div>
         <br>
-        <button type="button" class="btn btn-outline-success btn-lg btn-block">Entra</button>  <br>
+        <button type="submit" class="btn btn-outline-success btn-lg btn-block"><a href="../../desk/html/index.html">Entra</a></button>  <br>
 
-        Caso não tenha conta:  <a href="cadastro.html" >Cadastra !</a>
+        Caso não tenha conta:  <a href="preço.html" >Cadastra !</a>
       </form>
     </div>
   </div><!--fim login-->
 
-
-
-
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <hr>
 
@@ -106,23 +98,16 @@
         </p>
        </div>
        
-
        <div class="col-md-4 d-flex justify-content-end">
-
          <a href="" class="btn btn-outline-dark ml-2">
            <i class="fab fa-facebook"></i>
          </a>
-
          <a href="" class="btn btn-outline-dark ml-2">
            <i class="fab fa-twitter"></i>
          </a>
-
          <a href="" class="btn btn-outline-dark ml-2">
            <i class="fab fa-instagram"></i>
          </a>
-
-
-
        </div>
      </div>
     </div>
