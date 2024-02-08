@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.containe {
+    width: 1100px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.containe .card {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    background: linear-gradient(135deg, #20adee 0%, #011a75 100%);
+    border-radius: 20px;
+    transition: transform 0.3s;
+    box-shadow: 1px 5px 30px rgb(39, 39, 39);
+}
+
+.containe .card:hover {
+    transform: scale(1.050);
+}
+ 
+.containe .card .card-title {
+    padding: 30px 20px;
+    border-bottom: 2px solid gray;
+}
+
+.containe .card .card-title h2 {
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: yellow;
+}
+
+.containe .card .card-title p span {
+    font-size: 40px;
+    padding: 0 5px;
+}
+
+
+.containe .card .card-content ul {
+    padding: 10px 30px;
+    padding-bottom: 20px;
+}
+
+.containe .card .card-content ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.containe .card .card-content ul li i {
+    margin-right: 4px;
+}
+
+.containe .card .card-content button{
+    width: 120px;
+    padding: 10px 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.containe .card .card-content button:hover{
+   background: #02ff4e;
+   letter-spacing: 1.2px;
+}
+
+.containe .card .card-content button a{
+    text-decoration: none;
+    color: black;
+    font-size:15px ;
+}

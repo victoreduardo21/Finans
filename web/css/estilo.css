@@ -1,0 +1,152 @@
+footer p a {
+    /*isso é pra link*/
+    margin: 5px 15px;
+    color: #0a0a0a;
+    text-decoration: nome;
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+
+}
+
+input:valid {
+    border-color: green;
+}
+
+#home {
+    /* esta na index */
+    color: rgb(255, 255, 255);
+    background: #1577f6;
+
+}
+
+#telaLogin {
+    /* esta na entra */
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.font {
+    color: #1577f6;
+    font-size: 50px;
+}
+
+.social-buttons {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-buttons button {
+    width: 100%;
+    padding: 10px;
+    background: #15f676;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+
+#cadastro {
+    /* esta no cadastro  */
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*sombreado*/
+}
+
+.letra{
+    color: #8a8787;
+    font-size: 12px;
+}
+
+#recuperasenha {
+    /* esta no recupera senha */
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 5px 30px rgb(37, 37, 37);
+    /*sombreado*/
+}
+
+
+.caixa {
+    /*esta na index */
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+    /*linha*/
+}
+
+.center {
+    text-align: center;
+    /* esta no recursos */
+
+}
+
+.recurso {
+    /* esta no recurços */
+    text-align: center;
+    padding: 10px;
+}
+
+.espaço {
+    padding: 15px;
+    /* esta no beneficios */
+}
+
+
+#icon {
+    /* esta no entra */
+    position: absolute;
+    top: 43.10%;
+    right: 30px;
+    transform: translateY(-10%);
+    background: url(../img/mostra.jpeg);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#icon.esconder {
+    /* esta no entra */
+    background: url(../img/esconder.jpeg);
+    background-size: cover;
+
+}
+
+#icone{
+    /* esta no entra */
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    transform: translateY(-10%);
+    background: url(../img/mostra.jpeg);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#icone.esconder {
+    /* esta no entra */
+    background: url(../img/esconder.jpeg);
+    background-size: cover;
+
+}
